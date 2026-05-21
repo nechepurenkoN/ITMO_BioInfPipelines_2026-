@@ -1,0 +1,12 @@
+FROM continuumio/miniconda3:24.1.2-0
+
+RUN conda install -y -c bioconda -c conda-forge \
+        spades=4.0.0 \
+        bwa=0.7.18 \
+        samtools=1.21 \
+        bcftools=1.21 \
+        python=3.12 \
+        matplotlib=3.9.2 \
+    && conda clean -afy
+
+ENV PATH=/opt/conda/bin:$PATH

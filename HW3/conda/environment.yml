@@ -1,0 +1,15 @@
+name: biopipelines
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - sra-tools=3.1.1
+  - fastqc=0.12.1
+  - trimmomatic=0.39
+  - spades=4.0.0
+  - bwa=0.7.18
+  - samtools=1.21
+  - bcftools=1.21
+  - python=3.12
+  - matplotlib=3.9.2
