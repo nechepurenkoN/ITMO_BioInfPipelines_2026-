@@ -1,0 +1,5 @@
+sample_id,group,fastq_1,fastq_2
+sample1,virus_a,data/sample1_1.fq.gz,data/sample1_2.fq.gz
+sample2,virus_a,data/sample2_1.fq.gz,data/sample2_2.fq.gz
+sample3,virus_b,data/sample3_1.fq.gz,data/sample3_2.fq.gz
+sample4,virus_b,data/sample4_1.fq.gz,data/sample4_2.fq.gz
